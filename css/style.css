@@ -32,25 +32,25 @@ html{
     margin: 0 auto;
 }
 
-.header nav ul {
+.header .bg-nav ul {
     display: flex;
     justify-content: end;
 
 }
 
-.header nav ul li{
+.header .bg-nav ul li{
     list-style-type: none;
     padding: 20px 10px;
 
 
 }
 
-.header nav ul li a{
+.header .bg-nav ul li a{
     text-decoration: none;
     color: var(--black);
 }
 
-.header nav ul li a:hover{
+.header .bg-nav ul li a:hover{
     color: var(--redmehroon);
     transition: 300ms;
 
@@ -225,6 +225,9 @@ html{
     margin-right: 30px;
     
 }
+.card-inner-wrapper .card .child-wrapper .blur{
+    color: grey;
+}
 
 .card-inner-wrapper .card .child-wrapper h2{
     padding: 30px 0;
@@ -269,3 +272,47 @@ html{
     font-size: 12px;
     padding: 30px;
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* /`sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    
+
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+
+}
+
+/* // `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) { 
+
+}
+
+/* // `xxl` applies to x-large devices (large desktops, less than 1400px) */
+
+@media (max-width: 1400px) {
+
+
+
+}
+
+
+
