@@ -51,7 +51,7 @@ html{
 }
 
 .header .bg-nav ul li a:hover{
-    color: var(--redmehroon);
+    color: var(--skyblue);
     transition: 300ms;
 
 }
